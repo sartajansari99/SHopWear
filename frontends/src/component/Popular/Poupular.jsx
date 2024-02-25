@@ -7,7 +7,7 @@ function Poupular() {
   const [data_products, setDataProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/popularinwomen")
+    fetch("https://shopwear.onrender.com/popularinwomen")
       .then((response) => response.json())
       .then((data) => setDataProducts(data));
   }, []);
