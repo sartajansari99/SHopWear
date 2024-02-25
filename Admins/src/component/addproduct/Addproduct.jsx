@@ -55,7 +55,8 @@ function Addproduct() {
     <div className="add-product">
       <div className="addproduct-itemfield">
         <p>Product title</p>
-        <input name='name'
+        <input
+          name="name"
           value={productDetails.name}
           onChange={changeHandler}
           type="text"
