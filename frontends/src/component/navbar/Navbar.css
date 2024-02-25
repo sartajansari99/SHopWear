@@ -1,0 +1,64 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo p {
+  color: red;
+  font-size: larger;
+  font-weight: 800;
+}
+.navli {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+}
+.loginSignup {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  cursor: pointer;
+}
+.loginSignup button {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navli hr {
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  height: 3px;
+  background: red;
+}
+.loginSignup button:active {
+  background-color: grey;
+}
+.menubar {
+  display: none;
+}
+.cartcount{
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.btn1{
+  
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  border: 2px solid green;
+  color: green;
+  transition: 0.3s;
+  margin-right: 12px;
+  
+}
+.btn1:hover{
+  background-color: green;
+  color: white;
+  
+  
+}
