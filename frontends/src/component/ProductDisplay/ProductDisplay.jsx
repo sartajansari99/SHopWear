@@ -55,6 +55,7 @@ function ProductDisplay(props) {
             <div>XXL</div>
           </div>
           <button
+            className="btns"
             onClick={() => {
               addToCart(product.id);
             }}

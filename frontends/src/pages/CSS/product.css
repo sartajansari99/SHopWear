@@ -1,12 +1,15 @@
-.product{
-    width: 80%;
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-direction: column;
+.product {
+  width: 80%;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  flex-direction: column;
 }
-@media(max-width:700px){
-    .product{
-        width: 50%;
-    }
+@media (max-width: 400px) {
+  .product {
+    width: 50%;
+  }
+  .desc {
+    margin-top: 4000px;
+  }
 }
