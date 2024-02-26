@@ -1,4 +1,4 @@
-const port = 4000;
+const port = require('https://shopwear.onrender.com/');
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -43,7 +43,7 @@ app.use("/images", express.static("upload/images"));
 app.post("/upload", upload.single("product"), (req, res) => {
   res.json({
     success: 1,
-    image_url: `https://shopwear.onrender.com/images/${req.file.filename}`,
+    image_url: `http://localhost:${port}/${req.file.filename}`,
   });
 });
 
